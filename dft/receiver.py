@@ -1,8 +1,4 @@
-"""Receiver: discovers senders, schedules chunks, verifies and assembles the file.
 
-Run:  python -m dft.receiver file.bin --targets 127.0.0.1:5001,127.0.0.1:5002
-      python -m dft.receiver file.bin            # LAN: UDP broadcast discovery
-"""
 from __future__ import annotations
 
 import argparse
