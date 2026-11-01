@@ -1,7 +1,4 @@
-"""Sender: answers authenticated discovery requests and serves file chunks.
 
-Run:  python -m dft.sender --dir shared --port 6001 --discovery-port 5001
-"""
 from __future__ import annotations
 
 import argparse
